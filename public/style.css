@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10%;
+    position: relative;
+}
+Header .logo .title{
+    display: block;
+    height: 65px;
+    width: 570px;
+    margin: 0 auto 10px 26.3%;
+    text-decoration: none;
+    background-image: url(https://vir.wsj.net/fp/assets/webpack4/img/wsj-logo-big-black.165e51cc.svg);
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position: center 16.5px;
+   
+}
+Header .brand .logo{
+    flex:1 1 70%;
+    margin: 0px;
+}
+Header .brand{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+Header .navbar{
+    display: flex;
+    align-items: center;
+    height: min-content;
+    width: 70%;
+    margin:0px  auto;
+    padding: 0px;
+    justify-content: space-between;
+}
+Header .navbar .search{
+    margin:auto;
+    padding: 0px auto;
+    float: 1 1 20%;
+    align-items: center;
+}
+Header .navbar .nav{
+    align-items: center;
+    flex: 1 1 70%;
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px 5%;
+}
+hr{
+    margin: 3px;
+    opacity: 0.7;
+}
+
+li{
+    list-style: none;
+}
+Header p{
+    font: normal 20px "Open Sans", sans-serif;
+}
+Header .brand .login a{
+    text-decoration: none;
+    color: #333;
+    padding: 0;
+    font: normal 12px Retina,Arial ,Helvetica, sans-serif;
+    align-items: center;
+}
+Header ul li a{
+    text-decoration: none;
+    color: #333;
+    font: normal 14px Retina,Arial,Helvetica,sans-serif;
+    opacity: 0.7;
+}
+Header ul li a:hover {
+    opacity: 1;
+}
+Header svg{
+    color: #333;
+}
+Header .brand .login a{
+    opacity: 0.7;
+    flex: 1 1 30%;
+    position: relative;
+}
+Header .brand .login a:hover{
+    opacity: 1;
+}
+/*.main-content li{
+    background-color: aqua;
+}*/
+@font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Book.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Book.woff") format("woff");
+            font-style: normal;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-BookItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-BookItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Light.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Light.woff") format("woff");
+            font-style: normal;
+            font-weight: 300;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-LightItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-LightItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 300;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Medium.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-Medium.woff") format("woff");
+            font-style: normal;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-MediumItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/Retina-MediumItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Light.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Light.woff") format("woff");
+            font-style: normal;
+            font-weight: 300;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-LightItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-LightItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 300;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Book.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Book.woff") format("woff");
+            font-style: normal;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-BookItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-BookItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Medium.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Medium.woff") format("woff");
+            font-style: normal;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-MediumItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-MediumItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Bold.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-Bold.woff") format("woff");
+            font-style: normal;
+            font-weight: 700;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Retina Narrow";
+            src:
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-BoldItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/retina/RetinaNarr-BoldItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 700;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Escrow Condensed";
+            src:
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Bold.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Bold.woff") format("woff");
+            font-style: normal;
+            font-weight: 700;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Escrow Condensed";
+            src:
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Bold+Italic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Bold+Italic.woff") format("woff");
+            font-style: italic;
+            font-weight: 700;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Escrow Condensed";
+            src:
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Roman.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Roman.woff") format("woff");
+            font-style: normal;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Escrow Condensed";
+            src:
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Italic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/escrow/Escrow+Display+Condensed+Italic.woff") format("woff");
+            font-style: italic;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Exchange";
+            src:
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-Book.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-Book.woff") format("woff");
+            font-style: normal;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Exchange";
+            src:
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-BookItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-BookItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Exchange";
+            src:
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-Medium.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-Medium.woff") format("woff");
+            font-style: normal;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Exchange";
+            src:
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-MediumItalic.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/exchange/Exchange-MediumItalic.woff") format("woff");
+            font-style: italic;
+            font-weight: 500;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Open Sans Bold";
+            src:
+                url("https://www.wsj.com/fonts/woffs/opensans/OpenSansBold.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/opensans/OpenSansBold.woff") format("woff");
+            font-style: normal;
+            font-weight: 700;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "Open Sans Regular";
+            src:
+                url("https://www.wsj.com/fonts/woffs/opensans/OpenSansRegular.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/opensans/OpenSansRegular.woff") format("woff");
+            font-style: normal;
+            font-weight: 400;
+            font-display: optional;
+        }
+    
+        @font-face {
+            font-family: "PT Serif Bold";
+            src:
+                url("https://www.wsj.com/fonts/woffs/ptserif/PTSerifBold.woff2") format("woff2"),
+                url("https://www.wsj.com/fonts/woffs/ptserif/PTSerifBold.woff") format("woff");
+            font-style: normal;
+            font-weight: 700;
+            font-display: optional;
+        }

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.5" height="93.5" viewBox="0 0 113.5 93.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="113.5" height="93.5" fill="none"/>
+    </clipPath>
+    <filter id="Union_1" x="0" y="0" width="107.5" height="93.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g transform="translate(-264.5 -140.5)">
+      <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(274 147)">
+        <g transform="matrix(1, 0, 0, 1, -9.5, -6.5)" filter="url(#Union_1)">
+          <path id="Union_1-2" data-name="Union 1" d="M68.626,57.607A39.7,39.7,0,0,1,38.5,71C17.237,71,0,55.106,0,35.5S17.237,0,38.5,0,77,15.894,77,35.5a33.667,33.667,0,0,1-8.375,22.107L88.5,74.5Z" transform="translate(9.5 6.5)" fill="#fff" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
